@@ -25,7 +25,7 @@ const FinishModal = ({ level, time, finishGame }) => {
       <SideWrapper>
         <p>Time: {time}</p>
         <p>Best Time: {localStorage.getItem(`${level}Time`) || time}</p>
-        <button onClick={() => finishGame()}>Koniec</button>
+        <button onClick={() => finishGame()}>Back to menu</button>
       </SideWrapper>
     </Modal>
   );
